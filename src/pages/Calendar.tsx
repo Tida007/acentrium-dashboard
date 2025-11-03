@@ -11,6 +11,7 @@ import { useUser } from "../context/UserContext";
 import { useData } from "../context/DataContext";
 import { CalendarEvent } from "../types/dashboard";
 import { LoginModal } from "../components/auth/LoginModal";
+import Asset from "../icons/Asset 4.svg";
 
 
 const Calendar: React.FC = () => {
@@ -107,8 +108,8 @@ const Calendar: React.FC = () => {
         {/* Calendar Header */}
         <div className="p-6 border-b border-gray-200 dark:border-gray-700">
           <div className="flex items-center space-x-3 mb-2">
-            <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">A</span>
+            <div className="w-10 h-10 rounded-lg flex items-center justify-center">
+              <img src={Asset} alt="Acentrium Logo"  color="#white"/>
             </div>
             <div>
               <h1 className="text-2xl font-bold text-gray-900 dark:text-white">

@@ -8,7 +8,7 @@ const MobileMenuToggle: React.FC = () => {
   return (
     <button
       onClick={toggleMobileSidebar}
-      className="fixed top-4 left-4 z-50 p-2 rounded-lg bg-white dark:bg-gray-800 shadow-lg border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors duration-200 lg:hidden"
+      className="fixed top-4 left-4 z-50 p-2 rounded-lg bg-white dark:bg-gray-800  shadow-lg border border-gray-200 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors duration-200 lg:hidden"
       aria-label={isMobileOpen ? "Close sidebar" : "Open sidebar"}
     >
       {/* @ts-expect-error: SVG imported as ReactComponent may not accept className prop */}

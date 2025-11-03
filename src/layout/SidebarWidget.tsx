@@ -5,7 +5,7 @@ export default function SidebarWidget() {
     <>
     <div
       className={`
-        mx-auto mb-10 w-full max-w-60 rounded-2xl bg-blue-50 px-4 py-5 text-center dark:bg-blue-900/[0.03] shadow-2xl`}
+        mx-auto mb-10 w-full max-w-60 rounded-2xl bg-[#dbdbdb] px-4 py-5 text-center dark:bg-blue-900/[0.03] shadow-2xl`}
     >
       <h3 className="mb-2 font-semibold text-gray-900 dark:text-white">
         Building Africa's AI Future

@@ -50,7 +50,7 @@ const navItems: NavItem[] = [
 ];
 
 const AppSidebar: React.FC = () => {
-  const { isExpanded, isMobileOpen, isHovered, setIsHovered, toggleMobileSidebar } = useSidebar();
+  const { isExpanded, isMobileOpen, isHovered, setIsHovered } = useSidebar();
   const location = useLocation();
   const { hasAttemptedLogin, canCreateEvents, setHasAttemptedLogin } = useUser();
 
@@ -209,14 +209,6 @@ const AppSidebar: React.FC = () => {
 
   return (
     <>
-      {/* Mobile Overlay */}
-      {isMobileOpen && (
-        <div 
-          className="fixed inset-0 bg-black bg-opacity-50 z-40 lg:hidden"
-          onClick={toggleMobileSidebar}
-        />
-      )}
-      
       {/* Desktop Sidebar */}
       <aside
         className={`hidden lg:flex fixed flex-col top-0 px-5 left-0 bg-[#1e2027] dark:bg-gray-900 dark:border-gray-800 text-gray-400 h-screen transition-all duration-300 ease-in-out z-50 border-r border-gray-200
