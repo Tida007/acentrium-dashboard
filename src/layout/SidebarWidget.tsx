@@ -23,13 +23,13 @@ export default function SidebarWidget() {
       </a>
     </div>
         <div className="flex gap-4">
-      <a href="https://www.instagram.com/acentrium/" target="_blank" rel="nofollow noopener" className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300">
+      <a href="https://www.instagram.com/acentriumafric?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="nofollow noopener" className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300">
         <Instagram size={18}/>
       </a>
-      <a href="https://twitter.com/acentrium" target="_blank" rel="nofollow noopener" className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300">
+      <a href="https://x.com/acentriumafrica" target="_blank" rel="nofollow noopener" className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300">
         <Twitter size={18}/>
       </a>
-      <a href="https://www.linkedin.com/company/acentrium" target="_blank" rel="nofollow noopener" className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300">
+      <a href="https://www.linkedin.com/company/acentriumafrica/" target="_blank" rel="nofollow noopener" className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300">
         <Linkedin size={18}/>
       </a>
       <a href="https://www.youtube.com/@acentrium" target="_blank" rel="nofollow noopener" className="text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300">
